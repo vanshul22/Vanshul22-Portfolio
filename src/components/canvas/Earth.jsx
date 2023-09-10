@@ -1,6 +1,6 @@
-import React, { Suspense } from 'react';
+import { Suspense } from 'react';
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import { OrbitControls, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const EarthCanvas = () => {
@@ -18,5 +18,6 @@ export default EarthCanvas;
 
 const Earth = () => {
   const earth = useGLTF('./planet/scene.gltf');
+  // eslint-disable-next-line react/no-unknown-property
   return <primitive object={earth.scene} scale={2.5} position-y={0} />
 }
