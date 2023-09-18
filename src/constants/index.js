@@ -94,10 +94,10 @@ const technologies = [
         name: "Express JS",
         icon: expressjs,
     },
-    {
-        name: "React Native",
-        icon: reactnative,
-    },
+    // {
+    //     name: "React Native",
+    //     icon: reactnative,
+    // },
     {
         name: "Redux Toolkit",
         icon: redux,
