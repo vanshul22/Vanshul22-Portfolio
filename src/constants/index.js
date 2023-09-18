@@ -8,6 +8,8 @@ import {
     html,
     css,
     reactjs,
+    reactnative,
+    expressjs,
     redux,
     tailwind,
     nodejs,
@@ -15,6 +17,7 @@ import {
     git,
     figma,
     docker,
+    nextjs,
     meta,
     starbucks,
     tesla,
@@ -22,7 +25,6 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -81,6 +83,22 @@ const technologies = [
         icon: reactjs,
     },
     {
+        name: "Next JS",
+        icon: nextjs,
+    },
+    {
+        name: "Node JS",
+        icon: nodejs,
+    },
+    {
+        name: "Express JS",
+        icon: expressjs,
+    },
+    {
+        name: "React Native",
+        icon: reactnative,
+    },
+    {
         name: "Redux Toolkit",
         icon: redux,
     },
@@ -89,24 +107,12 @@ const technologies = [
         icon: tailwind,
     },
     {
-        name: "Node JS",
-        icon: nodejs,
-    },
-    {
         name: "MongoDB",
         icon: mongodb,
     },
     {
-        name: "Three JS",
-        icon: threejs,
-    },
-    {
         name: "git",
         icon: git,
-    },
-    {
-        name: "figma",
-        icon: figma,
     },
     {
         name: "docker",
@@ -184,69 +190,71 @@ const testimonials = [
     },
 ];
 
+
 const projects = [
     {
-        name: "Car Rent",
+        name: "CRM Web App",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "I developed a web app for lead management using React, Node.js, Express, and MySQL. It supports dynamic lead tracking, user management, holiday planning, department structure, and reporting. Features include lead assignment, approval workflows, and robust reporting.",
         tags: [
             {
                 name: "react",
-                color: "blue-text-gradient",
+                color: "pink-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "node/express",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-            {
-                name: "react",
+                name: "microservices",
                 color: "blue-text-gradient",
             },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: "https://picsum.photos/300/280",
+        source_code_link: "https://github.com/vanshul22",
     },
     {
-        name: "Trip Guide",
+        name: "NextJs/React-Native App",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "I developed a mobile website using Next.js and Firebase, later converting it into a React Native mobile app for improved user experience and accessibility. As the sole front-end developer, I created the project from scratch and delivered it in just two weeks.",
         tags: [
             {
                 name: "nextjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "react-native",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "tailwindcss",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        // image: "https://dummyimage.com/200x300&text=NextJs/React-Native+App",
+        image: "https://picsum.photos/300/290",
+        source_code_link: "https://github.com/vanshul22",
+    },
+    {
+        name: "Product Web App",
+        description:
+            "I developed a dynamic website as a full-stack developer, utilizing React for the frontend and Node.js/Express.js for the backend. Responsibilities included UI design, API integration and data management. Key technologies employed: React, Node.js, Express.js and MySQL.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "node",
+                color: "green-text-gradient",
+            },
+            {
+                name: "express",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: "https://picsum.photos/300/300",
+        source_code_link: "https://github.com/vanshul22",
     },
 ];
 
