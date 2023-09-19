@@ -49,22 +49,22 @@ How to run the program, follow these steps:
     # or
 
     yarn dev
-This will start the development server and you can access the project in your web browser at http://localhost:5173.
+This will start the development server and you can access the project in your web browser at http://localhost:3000.
 
 ---
 
 
 ## Help
-Any advise for common problems or issues. Use this while getting error.
+If you are getting any error while installing dependencies then, Use this to resolve the issue.
 ```
 npm install --legacy-peer-deps
 ```
 
 ## Authors
-Contributors names and contact info Vanshul Kesharwani [@Vanshul22](mailto:vkvanshulkesharwani54@gmail.com)
+Contributors names and contact info: Vanshul Kesharwani [@Vanshul22](mailto:vkvanshulkesharwani54@gmail.com)
 
 ## Version History
-* 2.1
+* Version : 2.1
 * Various bug fixes and optimizations
 * See [commit change](https://github.com/vanshul22/Vanshul22-Portfolio/commits/master) or See [release history](https://github.com/vanshul22/Vanshul22-Portfolio/deployments)
 * Initial Release
